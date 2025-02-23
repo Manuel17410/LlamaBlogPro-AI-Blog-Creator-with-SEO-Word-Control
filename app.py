@@ -4,15 +4,14 @@ from langchain.llms import CTransformers
 from gtts import gTTS 
 import tempfile
 import time
-import gdown
-import os
 
-# Function to get response from Llama 2 model
+
+## Function to get response from Llama 2 model
 def getLLamaresponse(input_text, no_words, seo_words, language):
     llm = CTransformers(
-       model='models/llama-2-7b-chat.ggmlv3.q8_0.bin',
-       model_type='llama',
-       config={'max_new_tokens': int(no_words) + 150, 'temperature': 0.7}  # Extra words to avoid cut-offs
+#        model='models/llama-2-7b-chat.ggmlv3.q8_0.bin',
+        model_type='llama',
+        config={'max_new_tokens': int(no_words) + 150, 'temperature': 0.7}  # Extra words to avoid cut-offs
     )
 
     template = f"""
@@ -243,3 +242,4 @@ st.markdown("""
 </style>
 <button class="floating-button" onclick="window.location.reload();">🔄</button>
 """, unsafe_allow_html=True)
+
