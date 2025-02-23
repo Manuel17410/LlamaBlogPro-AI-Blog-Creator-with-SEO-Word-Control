@@ -15,7 +15,7 @@ to GitHub because of how big the model is, so this is the easiest way then.
 
 It should look like this: 
 
-![Example Image](pics/models.png)
+![Example Image](pics/models .png)
 
 4- Create a folder in VSC called models and put the downloaded model there, and then save the changes.
 
