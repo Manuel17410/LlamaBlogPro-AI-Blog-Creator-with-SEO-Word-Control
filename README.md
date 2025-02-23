@@ -15,6 +15,8 @@ to GitHub because of how big the model is, so this is the easiest way then.
 
 It should look like this: 
 
+![Example Image](pics/models.png)
+
 4- Create a folder in VSC called models and put the downloaded model there, and then save the changes.
 
 5- Run the app using this command : streamlit run app.py
@@ -22,3 +24,10 @@ It should look like this:
 
 ## App
 
+![Example Image](pics/blogginggenius.png)
+
+![Example Image](pics/blogginggenius1.png)
+
+![Example Image](pics/blogginggenius2.png)
+
+![Example Image](pics/blogginggenius3.png)
