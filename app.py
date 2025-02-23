@@ -9,7 +9,7 @@ import time
 ## Function to get response from Llama 2 model
 def getLLamaresponse(input_text, no_words, seo_words, language):
     llm = CTransformers(
-#        model='models/llama-2-7b-chat.ggmlv3.q8_0.bin',
+        model='models/llama-2-7b-chat.ggmlv3.q8_0.bin',
         model_type='llama',
         config={'max_new_tokens': int(no_words) + 150, 'temperature': 0.7}  # Extra words to avoid cut-offs
     )
